@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    background: url("./images/bg-hero-desktop.svg") hsl(193, 100%, 96%) no-repeat;
+    background-size: cover;
+}
+.logo{
+    
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo button{
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 50px;
+    box-shadow: 5px 5px 10px gray;
+}
+.top{
+    padding: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.top button, .community button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 50px;
+    background: hsl(322, 100%, 66%);
+    color: aliceblue;
+}
+.logo button:hover, .top button:hover, .community button:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+.top-text{
+    padding: 100px;
+    text-align: left;
+}
+.top-text h1, .top-text p{
+    padding: 10px 0;
+}
+.top img{
+    width: 50%;
+}
+.card{
+    margin: 10% 10%;
+}
+.grow, .flow, .users{
+    margin: 50px;
+    padding: 50px;
+    width: auto;
+    display: flex;
+    text-align: left;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px hsl(208, 11%, 55%);
+}
+.card img{
+    margin: 0 5%;
+    width: 40%;
+}
+.grow-text, .flow-text, .users-text{
+    margin-top: 8%;
+    width: 50%;
+}
+.card p{
+    color: hsl(208, 11%, 55%);
+    padding-top: 15px;
+}
+
+.community{
+    margin: auto;
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px hsl(208, 11%, 55%);
+    padding: 3%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+}
+.community button{
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: -5%;
+    padding: 10% 0 0 0;
+    background: hsl(192, 100%, 9%);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.info img{
+    display: inline;
+    width: fit-content;
+    padding: 30px;
+}
+.location, .phone, .email{
+    display: flex;
+    width: 60%;
+    padding: 10px;
+}
+.location img, .phone img, .email img{
+    padding: 10px;
+    margin: 5px 5px;
+    width: 2.5em;
+    height: 2.5em;
+}
+.info p{
+    margin: 10px 0;
+}
+
+li{
+    padding: 10px;
+    list-style: none;
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.social-media
+{
+    width: 10%;
+    display: flex;
+}
+.social-media button {
+    width: 50px;
+    margin: 10px 5px auto 5px;
+    padding: 10px;
+    background: none;
+    color: aliceblue;
+    border: 1px solid snow;
+    border-radius: 70%;
+}
+.social-media button:hover{
+    cursor: pointer;
+    color: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+
+@media screen and (max-width: 375px){
+    
+}
